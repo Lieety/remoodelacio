@@ -89,7 +89,7 @@ const Contact = () => {
           </button>
 
           {status === 'success' && <p className="mt-4 text-green-600">Missatge enviat amb èxit</p>}
-          {status === 'error' && <p className="mt-4 text-red-600">Error a l'enviar el missatge. Intenti-ho de nou.</p>}
+          {status === 'error' && <p className="mt-4 text-red-600">Error a l&apos;enviar el missatge. Intenti-ho de nou.</p>}
         </form>
       </div>
     </section>
